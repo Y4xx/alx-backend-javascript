@@ -7,14 +7,14 @@ console.log(c1);
 
 try {
     c1.name = 12;
-}
-catch (err) {
+} 
+catch(err) {
     console.log(err);
 }
 
 try {
     const c2 = new ALXCourse("ES6", "1", ["Bob", "Jane"]);
 }
-catch (err) {
+catch(err) {
     console.log(err);
 }
