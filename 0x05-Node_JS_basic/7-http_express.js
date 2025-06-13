@@ -47,7 +47,7 @@ function countStudents(fileName) {
 }
 
 app.get('/', (request, response) => {
-  response.send('Hello Holberton School!');
+  response.send('Hello ALX!');
 });
 app.get('/students', (request, response) => {
   countStudents(process.argv[2].toString()).then((output) => {
